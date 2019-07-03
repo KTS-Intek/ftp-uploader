@@ -25,10 +25,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        filesearcher.cpp \
         main.cpp \
         widget.cpp
 
 HEADERS += \
+        filesearcher.h \
         widget.h
 
 FORMS += \
